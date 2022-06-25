@@ -8,11 +8,7 @@ const Contact = (props) => {
     <>
       <div className="container">
         <div className="container-image">
-          <img
-            className="image"
-            src={props.dataPassing.photo}
-            alt={props.dataPassing.name}
-          ></img>
+          <img src={props.dataPassing.photo} alt={props.dataPassing.name}></img>
         </div>
         <div className="container-data">
           <h1>{props.dataPassing.name}</h1>

@@ -18,7 +18,7 @@
   padding: 7px;
 }
 
-.image {
+.container-image img {
   width: 150px;
   border-radius: 50%;
 }
