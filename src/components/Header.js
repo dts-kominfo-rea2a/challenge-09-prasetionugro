@@ -7,7 +7,7 @@ const Header = () => {
     <>
       <div className="header">
         <h1 className="title">Call a friend</h1>
-        <p className="sub-title">your friendy contact app</p>
+        <p className="sub-title">your friendly contact app</p>
         <p className="separator">••••••••••••••••••••••••</p>
       </div>
     </>
