@@ -3,17 +3,17 @@
 import React from "react";
 import "./Contact.css";
 
-const Contact = ({ dataPassing }) => {
+const Contact = ({ data }) => {
   return (
     <>
       <div className="container">
         <div className="container-image">
-          <img src={dataPassing.photo} alt={dataPassing.name}></img>
+          <img src={data.photo} alt={data.name} />
         </div>
         <div className="container-data">
-          <h1>{dataPassing.name}</h1>
-          <p>{dataPassing.phone}</p>
-          <p>{dataPassing.email}</p>
+          <h1>{data.name}</h1>
+          <p>{data.phone}</p>
+          <p>{data.email}</p>
         </div>
       </div>
     </>
