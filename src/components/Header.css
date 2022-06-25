@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin-bottom: 0px;
+  color: #b6b1ab;
+}
+
+.sub-title {
+  margin: 5px 0px 0px 0px;
+  color: #b6b1ab;
+}
+
+.separator {
+  color: #a8997f;
+  font-size: 1.5rem;
+  margin: 0;
+  height: 50px;
+}

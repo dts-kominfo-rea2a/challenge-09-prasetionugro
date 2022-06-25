@@ -1,10 +1,17 @@
 // Kalian bisa menambahkan CSS di src/components/Header.css
-import React from 'react';
+import React from "react";
+import "./Header.css";
 
 const Header = () => {
-    return (
-        <></>
-    )
-}
+  return (
+    <>
+      <div className="header">
+        <h1 className="title">Call a friend</h1>
+        <p className="sub-title">your friendy contact app</p>
+        <p className="separator">••••••••••••••••••••••••</p>
+      </div>
+    </>
+  );
+};
 
 export default Header;

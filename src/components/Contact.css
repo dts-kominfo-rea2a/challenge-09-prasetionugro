@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  background-color: #5f7161;
+  margin-bottom: 1rem;
+  width: 500px;
+  height: 220px;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.container-image {
+  flex-basis: 25%;
+  margin: 20px;
+  padding: 7px;
+}
+
+.image {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.container-data {
+  flex-basis: 75%;
+  flex-direction: column;
+  margin: 10px;
+  color: #252525;
+}
+
+.container-data h1 {
+  font-size: 1.5rem;
+  margin: 10px 0px;
+}
+
+.container-data p {
+  margin: 5px 0px;
+}

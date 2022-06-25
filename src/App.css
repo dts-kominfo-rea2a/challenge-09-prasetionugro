@@ -1,4 +1,7 @@
 .App {
   text-align: center;
   display: flex;
+  flex-direction: column;
+  background-color: #fbf8f1;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
